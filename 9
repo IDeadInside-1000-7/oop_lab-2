@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std; 
+int main()
+{
+    float a, b, c, d, ch, zn;
+    char dummychar;
+    cout << "Программа запрашивает у пользователя значения двух дробей, а затем выводит результат (cумму), также записанный в форме дроби. Введите 1-ю дробь: ";  
+    cin >> a >> dummychar >> b;
+    cout << endl << "Введите 2-ю дробь: ";
+    cin >> c >> dummychar >> d;
+    ch = ((a * d) + (b * c));
+    zn = (b * d);
+    cout << endl << "Сумма: " << ch << dummychar << zn << endl;
+} 
