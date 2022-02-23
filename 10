@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    float fn, sh, pe, ch;
+    int rez;
+    cout << "Введите кол-во фунтов: ";
+    cin >> fn;
+    cout << "Введите кол-во шиллингов: ";
+    cin >> sh;
+    cout << "Введите кол-во пенсов: ";
+    cin >> pe;
+    ch = (sh*12+pe)/2.4;
+    rez = ch;
+    cout << "Десятичных фунтов: £" << fn << "." << rez << endl;
+}
