@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    float s, f_st, fr, n_m, j_y;
+    cout << "Программа запрашивает денежную сумму в долларах, а затем выводит эквивалентные суммы в других валютах. Введите кол-во доллларов: ";
+    cin >> s;
+    f_st = s/1.487;
+    fr = s/0.172;
+    n_m = s/0.584;
+    j_y = s/0.00955;
+    cout << "Фунты стерлинга: " << f_st << endl;
+    cout << "Франки: " << fr << endl;
+    cout << "Немецкая марка: " << n_m << endl;
+    cout << "Японская йена: " << j_y << endl;
+}
