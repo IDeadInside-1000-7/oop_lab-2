@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+  cout << setiosflags(ios::left)<< setfill(' ') << setw(10) << "Фамилия"
+  << setfill(' ') << setw(10) << "Имя"<< setfill(' ') << setw(10) << "Адрес"
+  << setfill(' ') << setw(10) << "Город"<<"\n"
+  << setfill(' ') << setw(10) << "Петров" << setfill(' ') << setw(10) << "Василий"
+  << setfill(' ') << setw(10) << "Кленовая 16" << setfill(' ') << setw(10) << "Санкт-Петербург"<<"\n"
+  << setfill(' ') << setw(10) << "Иванов" << setfill(' ') << setw(10) << "Сергей"
+  << setfill(' ') << setw(10) << "Осиновая 3" << setfill(' ') << setw(10) << "Находка"<<"\n"
+  << setfill(' ') << setw(10) << "Сидоров" << setfill(' ') << setw(10) << "Иван"
+  << setfill(' ') << setw(10) << "Березовая 21" << setfill(' ') << setw(10) << "Калининград"<<"\n";
+}
