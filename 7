@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    float cel, f;
+    cout << "Программа запрашивает температуру в градусах по Цельсию и отображает ее эквивалент по Фаренгейту. Введите температуру в градусах: ";
+    cin >> cel;
+    f = (((cel * 9/5)) + 32);
+    cout << "Результат: " << f << endl;
+}
