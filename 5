@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    char w; int r;
+    cout << "Программа принимает букву от пользователя, а затем выводит нулевое или ненулевое значение в зависимости от того, является ли буква строчной или нет. Введите букву: ";
+    cin >> w;
+    r = islower(w);
+    cout << "Результат: " << r;
+}
